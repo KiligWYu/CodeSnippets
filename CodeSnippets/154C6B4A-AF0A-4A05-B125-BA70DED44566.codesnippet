@@ -25,7 +25,7 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"CELL"];
     }
     
-    return &lt;#expression#&gt;;
+    return cell;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>154C6B4A-AF0A-4A05-B125-BA70DED44566</string>

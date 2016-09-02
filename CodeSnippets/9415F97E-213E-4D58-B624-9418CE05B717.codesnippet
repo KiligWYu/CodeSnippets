@@ -9,7 +9,7 @@
 		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, copy) NSString *&lt;#property#&gt;;</string>
+	<string>@property (nonatomic, copy) NSString *&lt;#name#&gt;;///&lt; &lt;#zhushi#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>9415F97E-213E-4D58-B624-9418CE05B717</string>
 	<key>IDECodeSnippetLanguage</key>
