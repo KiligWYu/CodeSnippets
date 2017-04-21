@@ -3,22 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>wypm</string>
+	<string>asyncinmain</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - &lt;#title#&gt;</string>
+	<string>dispatch_async(dispatch_get_main_queue(), ^{
+        &lt;#code#&gt;
+    });</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D30BEBBD-50CB-46F5-9F61-D3814B741257</string>
+	<string>D902CAE4-1F97-4F0C-A707-E39DFD484197</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>wy_pragma_mark</string>
+	<string>dispatch async in main queue</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

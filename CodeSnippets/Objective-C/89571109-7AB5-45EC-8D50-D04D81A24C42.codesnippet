@@ -3,22 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>wyzhushi</string>
+	<string>keyboardnotification</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>///&lt; &lt;#zhushi#&gt;</string>
+	<string>[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(handleKeyboardWillShowNotification:) name:UIKeyboardWillShowNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(handleKeyboardWillHideNotification) name:UIKeyboardWillHideNotification object:nil];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>50CEFB82-C0BE-4ABC-9FBF-8D727DCF3890</string>
+	<string>89571109-7AB5-45EC-8D50-D04D81A24C42</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>wy_zhushi</string>
+	<string>add keyboard notifications</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

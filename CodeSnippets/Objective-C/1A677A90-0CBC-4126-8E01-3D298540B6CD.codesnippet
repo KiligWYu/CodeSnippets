@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>keyboardnotificationactions</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark - handle keyboard notifications
+
+- (void)handleKeyboardWillShowNotification:(NSNotification *)notification {
+    CGRect keyboardBounds = [notification.userInfo[@"UIKeyboardBoundsUserInfoKey"] CGRectValue];
+    NSTimeInterval duration = [notification.userInfo[@"UIKeyboardAnimationDurationUserInfoKey"] doubleValue];
+    [UIView animateWithDuration:duration animations:^{
+        &lt;#code#&gt;
+    }];
+}
+
+- (void)handleKeyboardWillHideNotification:(NSNotification *)notification {
+    NSTimeInterval duration = [notification.userInfo[@"UIKeyboardAnimationDurationUserInfoKey"] doubleValue];
+    [UIView animateWithDuration:duration animations:^{
+        &lt;#code#&gt;
+    }];
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>1A677A90-0CBC-4126-8E01-3D298540B6CD</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>handle keyboard notifications</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
