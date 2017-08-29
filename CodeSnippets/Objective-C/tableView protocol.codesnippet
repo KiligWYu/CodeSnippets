@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>table_view_protocol</string>
+	<string>tableview_protocol</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
@@ -32,7 +32,7 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    &lt;#...#&gt;
+    &lt;#code#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>78CCF9EE-C036-4E4D-94B5-B492774A343A</string>

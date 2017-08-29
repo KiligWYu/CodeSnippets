@@ -3,26 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>shared_instance</string>
+	<string>dispatch_async</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>+ (instancetype)sharedInstance {
-    static id sharedInstance = nil;
-    static dispatch_once_t onceToken;
-    dispatch_once(&amp;onceToken, ^{
-        sharedInstance = [[self alloc] init];
-    });
-    return sharedInstance;
-}</string>
+	<string>dispatch_async(dispatch_get_main_queue(), ^{
+    &lt;#code#&gt;
+});</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>EB684252-88A4-4F94-921F-5898B18DA761</string>
+	<string>D902CAE4-1F97-4F0C-A707-E39DFD484197</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>sharedInstance</string>
+	<string>dispatch async in main queue</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
